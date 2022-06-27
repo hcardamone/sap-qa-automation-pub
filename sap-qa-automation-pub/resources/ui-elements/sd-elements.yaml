@@ -1,0 +1,69 @@
+# Structure: screen > element.
+# Naming convetion: [ElementName_Type].
+# Type can be one of these below, more can be added as needed:
+
+# Types of Web Elements:
+# mn        - Menu item / option.
+# smn       - Submenu item / option.
+# btn       - Button.
+# input     - Generic input field.
+# nmb       - Any number.
+# txt       - Free text field.
+# date      - Date in the format as set in the OS and browser.
+# email     - Email address field.
+# chk       - Checkbox.
+# lnk       - Link text.
+# icn       - Icon link.
+# cur       - Currency.
+# msel      - Selection list where all the options are listed with a scrollbar. Multiple items can be selected by keeping CRTL or SHIFT pressed.
+# rstxt     - Resizable text area.
+# scrn      - screenshoot name.
+# sel       - Selection list where all the options are listed with a scrollbar. Only one item can be selected.
+# opt       - Each option within a dropdown or list selection fields.
+# rdi       - Radio option.
+# tab       - Tab item to switch pages.
+# lkp       - Lookup text field, with a magnifying glass button to search for an item on a popup window.
+# lbl       - UI label without user interaction, but useful for validations.
+# obj       - Generic UI object or container.
+# col       - Column reference within a grid object.
+# grid      - Grid or table object.
+# cell      - Locator to a single cell within a table object. Add Row# and / or Col# to better identify where the cell is located in the table.
+# dlg       - Popup window to present some message to the user
+
+saplogon:
+  mdt:                        wnd[0]/usr/txtRSYST-MANDT
+  usr:                        wnd[0]/usr/txtRSYST-BNAME
+  pwd:                        wnd[0]/usr/pwdRSYST-BCODE
+  lng:                        wnd[0]/usr/txtRSYST-LANGU
+  windowtitle:                "SAP Logon 750"
+  multipleLogonWarning_dlg:   wnd[1]
+  multipleLogonTitle_dlg:     License Information for Multiple Logons
+  endOthersOption_rdi:        wnd[1]/usr/radMULTI_LOGON_OPT1
+  continueOption_rdi:         wnd[1]/usr/radMULTI_LOGON_OPT2
+  terminateOption_rdi:        wnd[1]/usr/radMULTI_LOGON_OPT3
+  messtxt:                    Information
+
+sapmain:
+    copyrightPopup:           wnd[2]/tbar[0]/btn[0]
+    confirmPopup_btn:         wnd[1]/tbar[0]/btn[0]
+    confirmBtn:               wnd[0]/tbar[0]/btn[11]
+    edtBtn:                   wnd[0]/tbar[1]/btn[25]
+    nwentrie:                 wnd[0]/tbar[1]/btn[5]
+
+sapzcdtrmat:
+  matnr:                      wnd[0]/usr/tblSAPLZF0004TCTRL_ZT0004/ctxtZT0004-MATNR[0,0]
+  denom:                      wnd[0]/usr/tblSAPLZF0004TCTRL_ZT0004/txtZT0004-DENOM[1,0]
+  codct:                      wnd[0]/usr/tblSAPLZF0004TCTRL_ZT0004/ctxtZT0004-CODCT[2,0]
+  orige:                      wnd[0]/usr/tblSAPLZF0004TCTRL_ZT0004/cmbZT0004-ORIGE[3,0]
+  valor:                      wnd[0]/usr/tblSAPLZF0004TCTRL_ZT0004/txtZT0004-VALOR[4,0]
+  moeda:                      wnd[0]/usr/tblSAPLZF0004TCTRL_ZT0004/txtZT0004-WAERS[5,0]
+
+sapedittableview:
+  
+  tbsch:                      wnd[0]/usr/ctxtVIEWNAME
+  codct:                      wnd[0]/usr/tblSAPLZF0003TCTRL_ZT0003/txtZT0003-CODCT[0,0]
+  denom:                      wnd[0]/usr/tblSAPLZF0003TCTRL_ZT0003/txtZT0003-DENOM[1,0]
+  phbtn:                      wnd[0]/usr/btnUPDATE_PUSH
+
+
+

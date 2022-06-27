@@ -1,0 +1,27 @@
+lxml
+decorator
+wheel
+robotframework==5.0
+robotframework-faker
+robotframework-crypto
+robotframework-sapguilibrary
+robotframework-autoitlibrary
+pyautogui
+pyyaml
+shyaml
+keyboard
+pillow
+boltons
+# BuiltIn
+## Keep your librarie always updated - pypi.org
+# python -m pip install --upgrade pip
+# pip --version
+# pip freeze - list of library python instaled
+# pip install -U robotframework
+# pip install -r requirements.txt
+# wxPython
+# robotframework-ride
+# robotframework-ride==2.0b1
+# pip install –-pre --upgrade robotframework-ride==5.0
+# Pip install –u wxPython
+# pip install robotframework-ride

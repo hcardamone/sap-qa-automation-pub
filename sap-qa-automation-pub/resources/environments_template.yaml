@@ -1,0 +1,4 @@
+KFQ:
+  ApplicationServer:  "IP-SAP-SERVER"
+  InstanceNumber:     "XX"
+  SystemID:           "SIS-ID"
