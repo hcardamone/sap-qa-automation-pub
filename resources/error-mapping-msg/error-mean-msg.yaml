@@ -1,2 +1,0 @@
-saplogonmsg:
-  com_error: (-2147417851, 'O servidor emitiu uma exceção.', None, None) #Multiple logon, the second logon was ended 
