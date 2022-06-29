@@ -148,4 +148,6 @@ If you get errors related to AutoIT library like `class not registered` follow t
 3. `zcategmaterial.resource` to register a new material category.
 
 > **Hint**: Markdown preview
-`Ctrl+Shift+V`
+`Ctrl+Shift+V`.
+
+> Thanks a lot [Allan Medeiros](https://github.com/AllanMedeiros) for your knowledge transfer.
